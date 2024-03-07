@@ -1,0 +1,20 @@
+package_name: titanic_model
+target: survived
+test_size: 0.2
+seed: 136723
+
+pipeline_name: titanic_model
+pipeline_file: titanic_model_output_v
+
+numerical_variables: 
+  - age
+  - fare
+
+categorical_variables: 
+  - sex
+  - cabin
+  - embarked
+  - title
+
+cabin_var: 
+  - cabin
